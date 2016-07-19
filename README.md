@@ -29,3 +29,11 @@ rgba(8, 37, 32, 255);rgba(30, 138, 119, 255);rgba(8, 37, 32, 255);0;0;0;0;0;0;0;
 rgba(8, 37, 32, 255);rgba(8, 37, 32, 255);rgba(8, 37, 32, 255);0;0;0;0;0;0;0;0;0;0;0;0;0;
 ```
 This image is 16x16 pixels. You can tell because there are 16 lines and 16 'pixels' defined in each line.
+
+While both of these images will look the same when displayed, the textual image will have more defined colours and no fuzziness even at large sizes.
+
+However, in the example above the size of the PNG was: 218 bytes and the size of the TIMG was: 2,263 bytes (about 10 times larger)
+
+To easily convert standard images in to textual images please install [PIL](http://www.pythonware.com/products/pil/), and use the python script found in /dist
+To display TIMG files on a website use the javascript file also found in /dist
+NOTE: The javascript file requires jQuery and the p
