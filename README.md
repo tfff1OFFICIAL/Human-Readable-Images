@@ -35,5 +35,6 @@ While both of these images will look the same when displayed, the textual image 
 However, in the example above the size of the PNG was: 218 bytes and the size of the TIMG was: 2,263 bytes (about 10 times larger)
 
 To easily convert standard images in to textual images please install [PIL](http://www.pythonware.com/products/pil/), and use the python script found in /dist
+
 To display TIMG files on a website use the javascript file also found in /dist
 NOTE: The javascript file requires jQuery and the p
