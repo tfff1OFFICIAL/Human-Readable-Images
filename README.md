@@ -6,7 +6,9 @@ A project aimed at creating images that anyone can read or change using only a b
 Images are just rows and rows of pixels, each pixel with their own specified colour.
 *.TIMG files are lines of text with each new line being a new row of pixels and each pixel in a row being either a hex or rgba colour seperated by semicolons. A completely transparent pixel is simply a 0.
 For example, a diamon sword from Minecraft would go from:
+
 ![Diamond Sword](http://www.minecraftinfo.com/images/360.png)
+
 to:
 ```
 0;0;0;0;0;0;0;0;0;0;0;0;0;rgba(14, 63, 54, 255);rgba(14, 63, 54, 255);rgba(14, 63, 54, 255);
